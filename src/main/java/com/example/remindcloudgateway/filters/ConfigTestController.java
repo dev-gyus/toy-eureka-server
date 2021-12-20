@@ -18,7 +18,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class ConfigTestController {
     private final Environment env;
-
+//
     @GetMapping("hello")
     public ResponseEntity<String> hello(){
         String hello = "헬로 메소드 진입";
